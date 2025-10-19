@@ -1,4 +1,4 @@
-const locationService = require('../services/locationService');
+const locationService = require('./locationService');
 const userRepository = require('../repositories/userRepository');
 
 const updateLocation = async (driverId, {latitude, longitude}) => {
